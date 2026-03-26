@@ -1,0 +1,436 @@
+
+/* .buton {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: darkorange;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.6s;
+    margin-top: 20px;
+
+}
+
+.buton:hover {
+    background-color: orange;
+    transform: scale(1.2);
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 0px 30px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main1 {
+    flex: 1;
+    padding: 10px 45px 0px 45px;
+}
+
+.main_container {
+    width: 100%;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow-y: auto;
+    padding: 20px;
+    
+   
+}
+
+
+
+.image {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.title {
+    margin-right: 89%;
+}
+
+.title2 {
+    margin-right: 83%;
+}
+
+
+
+
+
+.hello {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+   
+    table-layout: fixed; 
+    border-radius: 1px solid;
+    border-radius: 10px;
+}
+
+
+.thSubject {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    width: 60%;
+    background-color: #e62549;
+    color: #fff;
+    font-weight: bold;
+}
+
+.thGrade {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    width: 20%;
+    background-color: #e62549;
+    color: #fff;
+    font-weight: bold;
+}
+
+.thDate {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    width: 20%;
+    background-color: #e62549;
+    color: #fff;
+}
+
+
+.tdSubject {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    width: 60%;
+}
+
+.tdGrade {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    width: 20%;
+}
+
+.tdDate {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    width: 20%;
+}
+
+
+
+
+
+.footer {
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.footer_text {
+    margin-top: 20px;
+}
+
+.butons{
+    display: flex;
+    gap: 20px;
+    
+} 
+ */
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #111;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+/* ==== Header ==== */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.buton {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: darkorange;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.buton:hover {
+    background-color: orange;
+    transform: scale(1.1);
+}
+
+.main1 {
+    flex: 1;
+    padding: 20px 45px;
+}
+
+.main_container {
+    width: 100%;
+    min-height: 450px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+     flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.wrapper_table {
+    width: 100%;
+    overflow-x: auto; 
+    flex: 1; 
+}
+
+.hello {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    table-layout: fixed; 
+    border-radius: 1px solid;
+    border-radius: 10px;
+    height: 500px;
+}
+
+
+.thSubject {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+    width: 60%;
+    background-color: #e62549;
+    color: #fff;
+    font-weight: bold;
+}
+
+.thGrade {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+    width: 20%;
+    background-color: #e62549;
+    color: #fff;
+    font-weight: bold;
+}
+
+.thDate {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+    width: 20%;
+    background-color: #e62549;
+    color: #fff;
+}
+
+
+.tdSubject {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+    width: 60%;
+}
+
+.tdGrade {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+    width: 20%;
+}
+
+.tdDate {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+    width: 20%;
+}
+
+
+
+.buton_tb{
+    width: 100%;
+    max-width: 250px; /* ограничение, чтобы не тянулась слишком сильно */
+  height: 40px;
+  border: none;
+  background-color: darkorange;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.buton_tb:hover {
+  background-color: orange;
+  transform: scale(1.05);
+}
+
+
+
+
+
+.footer {
+    text-align: center;
+    padding: 20px 40px;
+    background: #1a1a1a;
+    border-top: 1px solid #333;
+}
+
+.footer_text {
+    margin-top: 10px;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999; 
+}
+
+.modal {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.up_block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    height: 30px;
+    background-color: #ddd;
+    border: none;
+    color: #111;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.text_add{
+    color: #111;
+}
+
+.down_block{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column; /* ← кнопки теперь идут вертикально */
+  align-items: flex-start; /* выравнивание по левому краю */
+  gap: 15px; /* расстояние между кнопками */
+  margin-top: 25px;
+}
+
+
+
+
+.buton_modal{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    background-color: darkorange;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.6s;
+    
+}
+
+@media(max-width: 550px){
+    .main_container{
+        overflow-x: auto;
+    }
+
+    .table{
+        min-width: 600px;
+        
+    }
+
+    
+}

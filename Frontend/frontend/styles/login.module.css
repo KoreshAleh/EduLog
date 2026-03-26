@@ -1,0 +1,83 @@
+
+
+    .buton{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color:  darkorange;
+        border-radius: 10px;
+        text-align: center;
+        transition: all 0.6s ;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .buton:hover{
+        background-color:orange;
+        transform:scale(1.2)
+    }
+
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 100px 0px 30px;
+
+
+        
+        
+        
+    }
+
+    @media (max-width: 480px) {
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            
+        }
+
+    }
+
+
+    .wrapper{
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        
+    }
+
+
+    .footer{
+        text-align: center;
+        padding: 20px 40px;
+ 
+        
+        
+    }  
+    .footer_text{
+        margin-top: 20px;
+    }
+
+    .main1{
+        flex: 1;
+    }
+
+   .image{
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+
+   .title{
+        margin-right: 89%;
+   }
+  
+
+
+
+
+
+
+   
+
+
